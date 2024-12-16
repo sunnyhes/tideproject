@@ -5,7 +5,7 @@ from matplotlib import font_manager as fm
 from PIL import Image
 
 # 한글 폰트 설정
-font_path = "/mount/src/final/NanumGothic.ttf"  # NanumGothic 폰트 경로
+font_path = "/mount/src/tideproject/NanumGothic.ttf"  # NanumGothic 폰트 경로
 font_prop = fm.FontProperties(fname=font_path)
 plt.rcParams['axes.unicode_minus'] = False  # 마이너스 기호 깨짐 방지
 
