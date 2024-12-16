@@ -140,7 +140,7 @@ selected_dates = [
 filtered_tidal_data = tidal_data[tidal_data['Date'].isin(pd.to_datetime(selected_dates).date)]
 
 if not filtered_tidal_data.empty:
-    st.subheader(f"선택한 위상들의 조위 그래프")
+    st.subheader(f"선택한 위상들의 인천 조위 그래프")
     fig, ax = plt.subplots(figsize=(10, 5))
     for date in filtered_tidal_data['Date'].unique():
         date_data = filtered_tidal_data[filtered_tidal_data['Date'] == date]
