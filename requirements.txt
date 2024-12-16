@@ -1,0 +1,8 @@
+streamlit
+matplotlib
+pandas
+numpy   
+gspread
+oauth2client
+oauth2client>=4.1.3
+pyasn1>=0.4.8
